@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Striped Cones Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <canvas id="canvas" width="500" height="500"></canvas>
+
+    <div class="controls">
+      <input type="range" class="controls__range js-maxSections"
+        step="10" min="10" max="300" value="150"/>
+      <input type="range" class="controls__range js-maxWidth"
+        step="10" min="50" max="800" value="300"/>
+
+      <button type="button" name="button" class="controls__button js-random">
+        Random</button>
+
+      <a href="" class="controls__button js-download" download="Striped Cones">Download</a>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+
+</body>
+</html>
